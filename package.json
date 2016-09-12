@@ -1,0 +1,33 @@
+{
+  "name": "webpack-trainging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "dev": "./node_modules/.bin/webpack-dev-server --progress --colors",
+    "validator": "webpack-validator webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "resolve-url": "^0.2.1",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.9.3",
+    "postcss-loader": "^0.13.0",
+    "resolve-url-loader": "github:bholloway/resolve-url-loader",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "v": "0.0.9",
+    "webpack-dev-server": "^1.15.1",
+    "webpack-validator": "^2.2.7"
+  }
+}
